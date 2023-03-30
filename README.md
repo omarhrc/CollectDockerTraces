@@ -23,3 +23,7 @@ Python library for the Docker Engine API:
 pip3 install docker
 ```
 
+Run the script:
+```
+python3 CollectDockerTraces.py 
+```
