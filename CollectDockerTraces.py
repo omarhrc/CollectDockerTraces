@@ -45,7 +45,7 @@ remove_cnf_traces = False
 #
 ##############################################################################
 CONTAINER_NAMES = {'nr_gnb', 'amf', 'ausf', 'bsf', 'smf', 'udm', 'udr',
-                   'nrf', 'nssf', 'pcf', 'upf', 'scp'}
+                   'nrf', 'nssf', 'pcf', 'upf'}
 merge_commands = ['mergecap -w mergedtrace.pcapng *.pcapng',
                   f'mv mergedtrace.pcapng {OUTPUT_DIRECTORY}'
                   ]
